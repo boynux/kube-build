@@ -1,0 +1,7 @@
+apiVersion: extensions/v1beta1
+kind: ThirdPartyResource
+metadata:
+  name: kube-build.stable.boynux.com
+description: "CI Server integrated into K8S. Build, ship and run inside your cluster"
+versions:
+- name: v1

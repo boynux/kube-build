@@ -1,0 +1,8 @@
+apiVersion: "boynux.com/v1alpha"
+kind: KubeBuild
+metadata:
+  name: my-sample-build
+image: registry.cosigno.net/build/golang:1.7
+pipelines:
+  test:
+    - echo "Hello world!"
